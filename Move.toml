@@ -1,0 +1,20 @@
+[package]
+name = "aptogotchi"
+version = "1.0.0"
+authors = []
+
+[addresses]
+aptogotchi = "_"
+
+[dev-addresses]
+aptogotchi = "0x100"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+[dev-dependencies]
